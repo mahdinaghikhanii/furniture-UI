@@ -43,7 +43,7 @@ class _HomePageState extends State<HomePage> {
                     style: Theme.of(context)
                         .textTheme
                         .headline1!
-                        .copyWith(color: AppColors.accentColor, fontSize: 60),
+                        .copyWith(color: AppColors.accentColor, fontSize: 40),
                     children: [
                       TextSpan(
                           text: "COLLECTION",
@@ -52,7 +52,7 @@ class _HomePageState extends State<HomePage> {
                               .headline5!
                               .copyWith(
                                   color: AppColors.tertiaryColor,
-                                  fontSize: 60)),
+                                  fontSize: 40)),
                     ])),
               ),
               Align(
